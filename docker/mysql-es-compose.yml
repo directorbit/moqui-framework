@@ -1,4 +1,5 @@
 version: "2"
+services:
   moqui-server:
     image: moqui
     container_name: moqui-server

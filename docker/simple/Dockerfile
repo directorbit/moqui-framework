@@ -31,7 +31,7 @@ EXPOSE 9300
 # Hazelcast Cluster Port
 EXPOSE 5701
 
-RUN chmod 777 /usr/share/elasticsearch/data
+#RUN chmod 777 /usr/share/elasticsearch/data
 
 # this is to run from the war file directly, preferred approach unzips war file in advance
 # ENTRYPOINT ["java", "-jar", "moqui.war"]
